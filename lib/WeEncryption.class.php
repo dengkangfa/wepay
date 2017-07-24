@@ -23,6 +23,7 @@ class WeEncryption {
 			$this->mch_id = MCHID;
 			$this->key = APP_KEY;
 		}
+
 	}
 
     /**
