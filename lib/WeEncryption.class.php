@@ -68,10 +68,10 @@ class WeEncryption {
 </xml>";
 
 		$nonce_str = $this->getNonceStr(); //调用随机字符串生成方法获取随机字符串
-		$body = $data['body'];
-		$out_trade_no = $data['out_trade_no'];
-		$total_fee = $data['total_fee'];
-		$spbill_create_ip = $data['spbill_create_ip'];
+		$body = $data['body']; //商品描述
+		$out_trade_no = $data['out_trade_no']; //商户订单号
+		$total_fee = $data['total_fee']; //总金额
+		$spbill_create_ip = $data['spbill_create_ip']; //终端IP
 		$trade_type = $this->trade_type;
 
 		$data['appid'] = $this->appid;

@@ -8,7 +8,7 @@ define('LIB_PATH', APP_PATH.'/lib/');
 /** 支付参数 */
 
 // 微信支付参数
-define('APPID', 'wx9e5a850865f9af9c');
+define('APPID', 'wxdf17e8d26f5ced28');
 define('MCHID', '1268537401');
 define('APP_KEY', 'zytrghtyhryacm5xlwowxjdsf2s8qkie');
 /** 微信退款证书 */
