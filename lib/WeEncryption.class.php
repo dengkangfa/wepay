@@ -18,7 +18,7 @@ class WeEncryption {
 	 * @param String $key 秘钥
 	 */
 	private function __construct() {
-		if (is_string($appid) && is_string($mch_id)) {
+		if (is_string(APPID) && is_string(MCHID)) {
 			$this->appid = APPID;
 			$this->mch_id = MCHID;
 			$this->key = APP_KEY;
